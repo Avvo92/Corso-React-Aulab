@@ -1,0 +1,27 @@
+[
+  {
+    "nome": "Laptop Pro 14",
+    "categoria": "Elettronica",
+    "prezzo": 1299.99
+  },
+  {
+    "nome": "Cuffie wireless",
+    "categoria": "Audio",
+    "prezzo": 89.5
+  },
+  {
+    "nome": "Tastiera meccanica",
+    "categoria": "Periferiche",
+    "prezzo": 119.0
+  },
+  {
+    "nome": "Monitor 27\" 4K",
+    "categoria": "Elettronica",
+    "prezzo": 449.99
+  },
+  {
+    "nome": "Mouse ergonomico",
+    "categoria": "Periferiche",
+    "prezzo": 45.9
+  }
+]
