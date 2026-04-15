@@ -1,19 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
+import Navbar from './components/Navbar'
+import Header from './components/Header'
+import List from './components/List'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const nomi = ['Mario', 'Piero', 'Angelo']
 
   return (
     <>
-      <h1 className='title'>Hello World!</h1>
-      <form action="">        
-        <label className='user_label' htmlFor="user_name">Inserisci il tuo nome</label>
-        <input className='user_input' type="text" id='user_name' name='user_name' />
-      </form>
+      <Navbar />
+      <Header />
+      <List nomi={nomi}/>
     </>
   )
 }
